@@ -38,3 +38,16 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+
+
+README
+-Completed Basic UI Structure.
+-Completed UI for Login and Register
+-Connected mongodb using Prisma.
+        --> npm i -D prisma
+        --> 2 files created -> schema.prisma which has schema details. and env file where database url is present.
+        --> Create a database cluster in Mongodb atlas which is the cloud solution and replace database url. and use mongodb as default db
+        --> start creating model of user,post,comments, notifications and also their relationship
+        --> after schema written then push those changes to prisma which will create all the tables/object for us.
+            command -> npx prisma db push
