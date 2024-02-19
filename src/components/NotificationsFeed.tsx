@@ -1,5 +1,5 @@
-import useCurrentUser from "@/src/hooks/useCurrentUser"
-import useNotification from "@/src/hooks/useNotification";
+import useCurrentUser from "@/hooks/useCurrentUser"
+import useNotification from "@/hooks/useNotification";
 import { useEffect } from "react";
 import { BsTwitter } from "react-icons/bs";
 

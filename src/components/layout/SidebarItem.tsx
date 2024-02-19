@@ -1,5 +1,5 @@
-import useCurrentUser from "@/src/hooks/useCurrentUser";
-import useLoginModal from "@/src/hooks/useLoginModal";
+import useCurrentUser from "@/hooks/useCurrentUser";
+import useLoginModal from "@/hooks/useLoginModal";
 import { useRouter } from "next/router";
 import { useCallback } from "react";
 import { IconType } from "react-icons"

@@ -1,5 +1,5 @@
 import useSWR from "swr";
-import fetcher from "@/src/libs/fetcher";
+import fetcher from "@/libs/fetcher";
 
 const useNotification = (userId?: string) =>{
     const url = userId ? `/api/notifications/${userId}`: null;

@@ -1,6 +1,6 @@
 import useSWR from "swr";
 
-import fetcher from "@/src/libs/fetcher";
+import fetcher from "@/libs/fetcher";
 
 const useUsers = () =>{
     const {

@@ -1,11 +1,11 @@
-import useCurrentUser from "@/src/hooks/useCurrentUser";
-import useLoginModal from "@/src/hooks/useLoginModal";
+import useCurrentUser from "@/hooks/useCurrentUser";
+import useLoginModal from "@/hooks/useLoginModal";
 import { formatDistanceToNowStrict } from "date-fns";
 import { useRouter } from "next/router";
 import { useCallback, useMemo } from "react";
 import Avatar from "../Avatar";
 import { AiOutlineHeart,AiFillHeart, AiOutlineMessage } from "react-icons/ai";
-import useLike from "@/src/hooks/useLike";
+import useLike from "@/hooks/useLike";
 
 interface PostItemProps{
     data: Record<string,any>;

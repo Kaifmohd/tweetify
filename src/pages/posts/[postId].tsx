@@ -1,8 +1,8 @@
-import Form from "@/src/components/Form";
-import Header from "@/src/components/Header";
-import CommentFeed from "@/src/components/posts/CommentFeed";
-import PostItem from "@/src/components/posts/PostItem";
-import usePost from "@/src/hooks/usePost";
+import Form from "@/components/Form";
+import Header from "@/components/Header";
+import CommentFeed from "@/components/posts/CommentFeed";
+import PostItem from "@/components/posts/PostItem";
+import usePost from "@/hooks/usePost";
 import { useRouter } from "next/router";
 import { ClipLoader } from "react-spinners";
 

@@ -1,4 +1,4 @@
-import usePosts from "@/src/hooks/usePosts";
+import usePosts from "@/hooks/usePosts";
 import PostItem from "./PostItem";
 
 interface PostFeedProps{
