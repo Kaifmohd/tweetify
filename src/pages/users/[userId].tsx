@@ -1,8 +1,8 @@
-import Header from "@/src/components/Header";
-import PostFeed from "@/src/components/posts/PostFeed";
-import UserBio from "@/src/components/users/UserBio";
-import UserHero from "@/src/components/users/UserHero";
-import useUser from "@/src/hooks/useUser";
+import Header from "@/components/Header";
+import PostFeed from "@/components/posts/PostFeed";
+import UserBio from "@/components/users/UserBio";
+import UserHero from "@/components/users/UserHero";
+import useUser from "@/hooks/useUser";
 import { useRouter } from "next/router";
 import { ClipLoader } from "react-spinners";
 
